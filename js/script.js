@@ -42,6 +42,7 @@ createApp ({
     methods: {
         
         prev(){
+            
             this.activeSlide += 1
         },
         next(){
