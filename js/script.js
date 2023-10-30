@@ -42,7 +42,10 @@ createApp ({
     methods: {
         
         prev(){
-            activeSlide += 1
+            this.activeSlide += 1
+        },
+        next(){
+            this.activeSlide -= 1
         }
     }
    
